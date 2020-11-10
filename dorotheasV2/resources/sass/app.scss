@@ -1,0 +1,21 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// css
+@import "menu";
+@import 'main';
+@import 'dropdown';
+@import 'home';
+@import 'modal';
+@import 'messages';
+@import "pages";
+@import 'pages-menu';
+@import "pages-course";
+@import "cards-course";

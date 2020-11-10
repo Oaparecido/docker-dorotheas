@@ -1,0 +1,109 @@
+.content-home {
+
+    .content-part-1 {
+        width: 50rem;
+        margin: 10rem 0 0 10rem;
+
+        img {
+            width: 8rem;
+        }
+
+        > div {
+            margin-left: 3rem;
+
+            p {
+                margin: 0;
+                color: $mostardYellow;
+                font-family: $font-bebas-neue;
+                font-size: 1.6rem;
+            }
+
+            h3 {
+                margin: 0;
+                color: $mostardYellow;
+                font-family: $font-bebas-neue;
+                font-size: 4rem;
+            }
+        }
+    }
+
+    .content-part-2 {
+        margin: 10rem 0 0 10rem;
+
+        > h1 {
+            margin: 0;
+            color: #fff;
+            font-family: $font-bebas-neue;
+            font-size: 11rem;
+        }
+
+        > p {
+            margin: 0;
+            color: $fireOpal;
+            font-family: $font-bebas-neue;
+            font-size: 2.5rem;
+        }
+    }
+
+    .content-part-3 {
+        margin: 10rem 0 0 10rem;
+        width: 35rem;
+
+        div {
+
+            h2 {
+                margin: 0;
+                color: $mostardYellow;
+                font-family: $font-bebas-neue;
+                font-size: 2.5rem;
+            }
+
+            div {
+
+                img {
+                    width: 5rem;
+                }
+
+                p {
+                    margin: 0 0 0 1rem;
+                    color: #fff;
+                    font-family: $font-bebas-neue;
+                    font-size: 2.5rem;
+                }
+            }
+        }
+    }
+
+    .content-button-register {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 55rem;
+        height: 6rem;
+        background: $mostardYellow;
+
+        a {
+            text-decoration: none;
+            width: 100%;
+
+            h3 {
+                margin: 0;
+                color: $darkGrey;
+                font-family: $font-bebas-neue;
+                font-size: 3rem;
+            }
+        }
+
+    }
+
+    .content-part-heart {
+        width: 80rem;
+        height: 78rem;
+
+        img {
+            z-index: -2;
+            width: 45rem;
+        }
+    }
+}
+
