@@ -6,7 +6,7 @@
     <div class="pages-menu-icons-bottom d-flex flex-column align-items-center justify-content-center">
 
         <a id="button-login" href="" class="d-flex justify-content-center mt-5 mb-3" data-toggle="modal"
-           data-target="#modal_login">
+           data-target="#modal_register-course">
             <img src="{{ asset('/assets/icon_register.svg') }}" alt="">
         </a>
 

@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Auth;
 
 use App\Helpers\SessionFlash;
 use App\Http\Controllers\Controller;
+use App\Http\Controllers\CourseController;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Crypt;
@@ -60,7 +61,7 @@ class LoginController extends Controller
             'username' => $user->username,
         ]);
 
-        dd(Session::get('login'));
+        return redirect()->action([CourseController::class, 'index']);
     }
 
     /**

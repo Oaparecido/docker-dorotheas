@@ -13,5 +13,6 @@
             @endfor
         </div>
     </div>
-    @include('components.menu-pages');
+    @include('components.menu-pages')
+    @include('components.modals.register-course')
 @endsection
