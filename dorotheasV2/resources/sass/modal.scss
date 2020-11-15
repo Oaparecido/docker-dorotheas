@@ -20,6 +20,11 @@
                 color: $mostardYellow;
                 font-size: 2rem;
             }
+
+            .register-course {
+                color: $fireOpal;
+                font-size: 2rem;
+            }
         }
     }
 
@@ -88,6 +93,94 @@
             }
 
             button {
+                font-family: $font-bebas-neue;
+                color: $mostardYellow;
+                font-size: 2rem;
+                text-decoration: none;
+                border: none;
+                background: none;
+
+                &:hover {
+                    color: rgba(242, 95, 92, 0.2);
+                }
+            }
+        }
+
+        .register-course {
+            padding: 1rem 2rem;
+
+            label {
+                color: $fireOpal;
+                font-size: 1.5rem;
+                font-family: $font-bebas-neue;
+
+                input {
+                    border: none;
+                    background: linear-gradient(90deg, $fireOpal 8%, rgba(242, 95, 92, 0.2) 8%);
+                    color: $fireOpal;
+                    padding: 0 0 0 2.5rem;
+                    height: 3rem;
+                    font-size: 1.5rem;
+                    font-family: $font-bebas-neue;
+                    letter-spacing: 0.1em;
+
+                }
+
+                .radio {
+                    width: .7em;
+                }
+
+                p {
+                    font-size: 2rem;
+                }
+
+                ::placeholder {
+                    color: $fireOpal;
+                }
+            }
+
+            .dropdown-course {
+                background: linear-gradient(90deg, $fireOpal 8%, rgba(242, 95, 92, 0.2) 8%);
+                padding: 0 0 0 2.5rem;
+                height: 3rem;
+
+                > a {
+                    height: 1.3em;
+                    color: $fireOpal;
+                    font-size: 1.5rem;
+                    font-family: $font-bebas-neue;
+                    letter-spacing: 0.1em;
+                    text-decoration: none;
+
+                }
+
+                .dropdown-menu.show {
+                    width: 27em;
+                    display: flex;
+                    flex-wrap: wrap;
+                    left: -33px !important;
+
+                    label {
+                        border: none;
+                        background: rgba(242, 95, 92, 0.2);
+                        min-width: 7em;
+                        max-width: 8em;
+                        display: flex;
+                        align-items: center;
+                        justify-content: start;
+                        margin: 0 0.5em 0.5em 0.5em;
+
+                        input {
+                            width: 2em;
+                            height: 1em;
+                        }
+                    }
+                }
+            }
+
+
+
+            .confirm {
                 font-family: $font-bebas-neue;
                 color: $mostardYellow;
                 font-size: 2rem;

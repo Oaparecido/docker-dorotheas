@@ -57,7 +57,7 @@ class UserController extends Controller
             'username' => $user->username,
         ]);
 
-        return redirect()->route('course');
+        return redirect()->action([CourseController::class, 'index']);
     }
 
     /**
